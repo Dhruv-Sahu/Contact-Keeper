@@ -77,7 +77,7 @@ const ContactState = props => {
         <ContactContext.Provider value={{
             contacts: state.contacts,
             current:state.current,
-            filterd: state.filtered,
+            filtered: state.filtered,
              addContact,
              deleteContact,
              setCurrent,
